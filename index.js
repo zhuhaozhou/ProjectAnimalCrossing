@@ -4,13 +4,10 @@ var request = require('request');
 var cheerio = require('cheerio');
 
 const checkInventory = () => {
-    //Paste the url for the product you want
-    const url = "https://www.bestbuy.com/site/nintendo-switch-32gb-console-neon-red-neon-blue-joy-con/6364255.p?skuId=6364255"
-    //Paste the cookie of your browser when you manually check website with a browser
+    const url = "https://www.bestbuy.com/site/nintendo-switch-32gb-console-gray-joy-con/6364253.p?skuId=6364253"
     const cookie = "";
-    //Set up in AWS SES following tutorial
-    const sourceEmailAddr = "xyz@gmail.com";
-    const destinationEmailAddrs = ["abc@qq.com"];
+    const sourceEmailAddr = "haozhouzhu@gmail.com";
+    const destinationEmailAddrs = ["814678064@qq.com"];
     
     const req = {
         url: url,
